@@ -1,0 +1,13 @@
+SV4;Bac xiu;Drink;274;16000
+SV6;Banh Flan;Food;133;12000
+SV9;Banh Gato;Food;309;25000
+SV3;Bing Chilling vi Vani;Food;19;7000
+SV0;Ca phe den;Drink;246;11000
+SV1;Ca phe sua;Drink;198;15000
+SV5;Coca Cola;Drink;282;10000
+SV12;Cua hoang de;Food;57;1490000
+SV10;Khoai tay chien;Food;280;26000
+SV7;Sinh to ca chua;Drink;140;12000
+SV8;Sting dau;Drink;250;10000
+SV11;Sua tuoi;Drink;202;20000
+SV2;Tom hum;Food;0;800000
