@@ -51,9 +51,6 @@
 
 [**2.3.2 Table Manager**	25](#_toc122260657)
 
-[**BẢNG PHÂN CÔNG CÔNG VIỆC**	26](#_toc122260658)
-
-
 
 
 
@@ -118,7 +115,7 @@ Class Date có các thuộc tính là iDay, iMonth, iYear, dùng để lưu bi�
 
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.012.png)
 ## <a name="_toc122259954"></a><a name="_toc122260194"></a><a name="_toc122260646"></a>**1.10 StaffService**
-**	StaffService là class kế thừa từ class Staff, áp dụng **tính kế thừa** nhận tất cả các thuộc tính và chức năng có thể kế thừa từ class cha là Staff và có các hàm thao tác riêng như Login, ShowTableList, hiển thị thông tin của chính nhân viên đó. Quản lý Table list và có các tính năng như tìm kiếm, sắp xếp, và lựa chọn đặt đơn hàng phục vụ, thanh toán các đơn hàng cho từng Table.
+StaffService là class kế thừa từ class Staff, áp dụng **tính kế thừa** nhận tất cả các thuộc tính và chức năng có thể kế thừa từ class cha là Staff và có các hàm thao tác riêng như Login, ShowTableList, hiển thị thông tin của chính nhân viên đó. Quản lý Table list và có các tính năng như tìm kiếm, sắp xếp, và lựa chọn đặt đơn hàng phục vụ, thanh toán các đơn hàng cho từng Table.
 
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.013.png)
 
@@ -179,12 +176,10 @@ Nếu là nhân viên đó là Staff thì có thêm option Delete Staff, khi th�
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.025.png)
 
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.026.png)![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.027.png)
-**
-`		`Khi chọn tính năng này, cho phép người dùng nhập vào từ khóa và sẽ tìm kiếm xuất ra danh sách các nhân viên có thông tin chứa từ khóa đó, bất kể ở thuộc tính nào đi nữa. Nếu không tìm thấy sẽ xuất ra thông báo không có. Ta có thể tìm kiếm lại hoặc lựa chọn Back để quay về.
+Khi chọn tính năng này, cho phép người dùng nhập vào từ khóa và sẽ tìm kiếm xuất ra danh sách các nhân viên có thông tin chứa từ khóa đó, bất kể ở thuộc tính nào đi nữa. Nếu không tìm thấy sẽ xuất ra thông báo không có. Ta có thể tìm kiếm lại hoặc lựa chọn Back để quay về.
 
 - **Sort Staff**
-**
-`		`Màn hình sẽ chuyển đến tab Sort, đưa ra các lựa chọn sắp xếp theo từng thuộc tính.
+Màn hình sẽ chuyển đến tab Sort, đưa ra các lựa chọn sắp xếp theo từng thuộc tính.
 
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.028.png)
 
@@ -193,8 +188,7 @@ Ví dụ, ta chọn Sort Name (Sắp xếp theo tên nhân viên), màn hình s�
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.029.png)
 
 - **Reset Staff ID**
-**
-`	`Chỉnh sửa lại tất cả các ID của Staff theo thứ tự tăng dần (trừ Admin). Dùng trong trường hợp khi xóa một nhân viên nhưng chúng ta muốn đẩy thứ tự ID của các nhân viên giảm về một đơn vị.
+Chỉnh sửa lại tất cả các ID của Staff theo thứ tự tăng dần (trừ Admin). Dùng trong trường hợp khi xóa một nhân viên nhưng chúng ta muốn đẩy thứ tự ID của các nhân viên giảm về một đơn vị.
 
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.030.png)
 **
@@ -359,12 +353,10 @@ Tương tự như cách reset Table ID.
 Màn hình chiếu ra danh sách thông tin các Bill đã được thanh toán trước đó.	![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.066.png)
 
 - **Sort Bill**
-**
-`		`Tương tự như những tính năng sort trên, khi lựa chọn option này sẽ đưa người dùng đến tab Sorting và cho phép chọn sắp xếp theo từng thuộc tính cụ thể.![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.067.png)
+Tương tự như những tính năng sort trên, khi lựa chọn option này sẽ đưa người dùng đến tab Sorting và cho phép chọn sắp xếp theo từng thuộc tính cụ thể.![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.067.png)
 
 - **Get Statistic**
-**
-`	`Màn hình hiện ra ba option thống kê theo một ngày cụ thể, thống kê theo tháng và cuối cùng là thống kê theo năm.
+Màn hình hiện ra ba option thống kê theo một ngày cụ thể, thống kê theo tháng và cuối cùng là thống kê theo năm.
 
 ![](/images/Aspose.Words.5fb394c0-0095-44ab-a21d-49d8a02584c0.068.png)
 
@@ -396,48 +388,4 @@ Trong mục này có thể thực hiện các thao tác **chọn bàn** (để x
 **Các chức năng này này tương tự trên class Admin.**
 
 **Và không có các chức năng như ADD Table, Reset Table ID như ở Admin**
-
-
-
-# <a name="_toc122259966"></a><a name="_toc122260206"></a><a name="_toc122260658"></a>**BẢNG PHÂN CÔNG CÔNG VIỆC**
-#
-
-<table><tr><th valign="top"><b>PHIÊN BẢN</b></th><th valign="top"><b>CÔNG VIỆC</b></th><th valign="top"><b>NGƯỜI THỰC HIỆN</b></th></tr>
-<tr><td rowspan="12" valign="top">C#</td><td valign="top">Class Date</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Time</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Account</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Service</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Staff</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class StaffService</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Table</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Admin</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Cafe</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Order</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Bill</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Main</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td rowspan="12" valign="top">Java</td><td valign="top">Class Date</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Time</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Account</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Service</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Staff</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class StaffService</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Table</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Admin</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Cafe</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Order</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Bill</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Main</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td rowspan="10" valign="top">C++</td><td valign="top">Class Date</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Time</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Account</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Class Service</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Staff</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Table</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Cafe</td><td valign="top">Trọng, Trung</td></tr>
-<tr><td valign="top">Class Order</td><td valign="top">Trung</td></tr>
-<tr><td valign="top">Class Bill</td><td valign="top">Trọng</td></tr>
-<tr><td valign="top">Main</td><td valign="top">Trọng, Trung</td></tr>
-</table>
-
-19
 
